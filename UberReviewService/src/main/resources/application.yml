@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: UberReviewService
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/Uber_Db_Local
+    username: root
+    password: root
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8082
+
