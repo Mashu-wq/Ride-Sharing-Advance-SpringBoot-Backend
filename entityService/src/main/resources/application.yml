@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: entityService
+  flyway:
+    baseline-on-migrate: true
+    user: root
+    password: root
+    enabled: true
+    locations: classpath:db/migration
+    url: jdbc:mysql://localhost:3306/Uber_Db_Local
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/Uber_Db_Local
+    username: root
+    password: root
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+  properties:
+    hibernate:
+      enable_lazy_load_no_trans: true
+
+server:
+  port: 9999
+
