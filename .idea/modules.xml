@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Ride-Sharing-backend.iml" filepath="$PROJECT_DIR$/.idea/Ride-Sharing-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UberReviewService/UberReviewService.iml" filepath="$PROJECT_DIR$/UberReviewService/UberReviewService.iml" />
     </modules>
   </component>
 </project>

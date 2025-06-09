@@ -2,15 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Annotation profile for ProductService" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/unknown/spring-boot-configuration-processor-unknown.jar" />
-        </processorPath>
-        <module name="ProductService" />
-      </profile>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Annotation profile for UberReviewService" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -22,11 +14,14 @@
         <module name="UberReviewService" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ProductService" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ProductService" options="-parameters" />
-      <module name="UberReviewService" options="-parameters" />
+      <module name="UberReviewService" options="" />
     </option>
   </component>
 </project>

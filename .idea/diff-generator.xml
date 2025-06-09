@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DiffGenerationConfig">
+    <option name="snapshotDb" value="false" />
+    <option name="snapshotModelValue" value="UberReviewService:entityManagerFactory" />
+    <option name="sourceModelValue" value="UberReviewService:entityManagerFactory" />
+    <option name="targetDbValue" value="a43e19ff-3f3d-4d45-8c91-6a03dbfee932" />
+  </component>
+</project>

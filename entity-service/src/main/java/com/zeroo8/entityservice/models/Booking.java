@@ -1,4 +1,4 @@
-package com.zeroo8.UberReviewService.models;
+package com.zeroo8.entityservice.models;
 
 import jakarta.persistence.*;
 
